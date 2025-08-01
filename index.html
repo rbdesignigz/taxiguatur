@@ -59,8 +59,8 @@
             <div class="mt-6 flow-root">
               <div class="-my-6 divide-y divide-gray-500/10">
                 <div class="space-y-2 py-6">
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Servicios</a>
-                  <a href="#footw" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">contacto</a>
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-100 mobile-menu-link">Servicios</a>
+                  <a href="#footw" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-100 mobile-menu-link">contacto</a>
 
                 </div>
 <!--                 <div class="py-6">
@@ -670,7 +670,20 @@
         </svg>
     </a>
 
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
 
+    if (mobileMenu && mobileMenuLinks.length > 0) {
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.close();
+        });
+      });
+    }
+  });
+</script>
 
 </body>
 </html>
