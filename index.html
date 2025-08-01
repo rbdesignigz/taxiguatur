@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2mIJOOp3nFq73L5J5q+B54n3L8E5iNf3O4t4Wp6p9Uj9H/Qp1z5vP8+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
 
@@ -31,8 +34,9 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900 hover:text-teal-600">Servicios</a>
+        <a href="#servi" class="text-sm/6 font-semibold text-gray-900 hover:text-teal-600">Servicios</a>
         <a href="#footw" class="text-sm/6 font-semibold text-gray-900 hover:text-teal-600">contacto</a>
+        <a href="./english.html" class="text-sm/6 font-semibold text-red-600 hover:text-teal-600">english</a>
 <!--         <a href="#" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
         <a href="#" class="text-sm/6 font-semibold text-gray-900">Company</a> -->
       </div>
@@ -59,8 +63,9 @@
             <div class="mt-6 flow-root">
               <div class="-my-6 divide-y divide-gray-500/10">
                 <div class="space-y-2 py-6">
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-100 mobile-menu-link">Servicios</a>
+                  <a href="#servi" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-100 mobile-menu-link">Servicios</a>
                   <a href="#footw" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-100 mobile-menu-link">contacto</a>
+                  <a href="./english.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-red-700 hover:bg-gray-100 mobile-menu-link">english</a>
 
                 </div>
 <!--                 <div class="py-6">
@@ -162,7 +167,7 @@
 <!-- fin redes -->
 
 
-<div class="max-w-6xl mx-auto py-12 ">
+<div id="servi" class=" max-w-6xl mx-auto py-12 ">
         <h2 class="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-cyan-800 bg-clip-text text-transparent">Nuestros Servicios</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -593,8 +598,8 @@
                     <!-- Enlaces de navegación -->
                     <nav class="flex flex-wrap justify-center space-x-6 text-gray-300">
                         <a href="#" class="hover:text-teal-600 transition-colors">Inicio</a>
-                        <a href="#" class="hover:ttext-teal-600 transition-colors">Servicios</a>
-                        <a href="#" class="hover:text-teal-600 transition-colors">Contacto</a>
+                        <a href="#servi" class="hover:ttext-teal-600 transition-colors">Servicios</a>
+                        <a href="https://wa.me/543757619820" class="hover:text-teal-600 transition-colors">Contacto</a>
                     </nav>
                 </div>
                 
@@ -661,13 +666,13 @@
 
         </div>
     </footer>
-
+ <span class="material-symbols-outlined">
+        chat_bubble
+        </span>
 
     <!-- Sección botón flotante -->
-    <a href="https://wa.me/543757619820" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors" target="_blank" aria-label="Contactar por WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.477 2 2 6.477 2 12c0 3.328 1.554 6.328 4.004 8.238l-1.026 3.762 3.864-1.011A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm4.318 13.917c-.104-.052-.61-.301-.715-.348-.104-.052-.18-.078-.258.078-.078.156-.299.39-.364.468-.066.078-.13.08-1.574-.59-.974-.469-1.821-1.092-2.585-1.928-.807-.866-1.348-1.74-1.516-2.022-.167-.282-.018-.433.125-.572.13-.146.257-.341.385-.494.12-.146.16-.258.21-.396.05-.138.026-.258-.013-.364-.04-.104-.37-.893-.509-1.22-.138-.328-.277-.282-.364-.288-.088-.005-.187-.005-.282-.005-.095 0-.25.04-.396.16-.146.12-.558.544-.558 1.328 0 .783.57 1.536.65 1.64.08.104 1.125 1.766 2.73 2.662.39.215.705.344.945.437.382.146.732.126 1.006.078.3-.047.93-.385 1.06-.75.13-.364.13-.678.09-.757-.04-.078-.146-.104-.302-.182z"/>
-        </svg>
+    <a href="https://wa.me/543757619820" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transition-colors" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
     </a>
 
 <script>
